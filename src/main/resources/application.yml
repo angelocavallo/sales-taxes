@@ -1,0 +1,6 @@
+application:
+  tax:
+    exemptCategories: FOOD, MEDICAL, BOOK
+    rate:
+      basic: 10
+      imported: 5
