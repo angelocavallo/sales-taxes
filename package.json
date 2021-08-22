@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha",
+    "docker": "docker build -t sales-taxes ."
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
