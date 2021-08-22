@@ -4,7 +4,7 @@ const configuration = require('../public/javascripts/configuration');
 const ReceiptBuilder = require('../public/javascripts/services/receiptBuilder');
 var router = express.Router();
 
-/* GET home page. */
+/* Purchase items */
 router.post('/purchase', function(req, res, next) {
   let items = req.body.items;
   let taxCalculator = new TaxCalculator(configuration);
